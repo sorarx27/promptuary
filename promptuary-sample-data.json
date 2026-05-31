@@ -1,0 +1,112 @@
+{
+  "prompts": [
+    {
+      "id": 1,
+      "title": "Code Review Assistant",
+      "content": "Please review the following code for:\n\n1. **Best practices** - Is the code following language conventions?\n2. **Performance** - Are there any obvious performance issues?\n3. **Security** - Are there any security vulnerabilities?\n4. **Maintainability** - Is the code readable and well-structured?\n\nCode to review:\n```{{language}}\n{{code}}\n```\n\nProvide specific suggestions for improvement.",
+      "tags": "coding,review,quality",
+      "folder": "Development",
+      "createdAt": "2026-05-01T10:00:00.000Z",
+      "updatedAt": "2026-05-15T14:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Bug Investigation Helper",
+      "content": "I'm encountering a bug in my application. Help me debug it systematically:\n\n**Bug Description:**\n{{bug_description}}\n\n**Expected Behavior:**\n{{expected_behavior}}\n\n**Actual Behavior:**\n{{actual_behavior}}\n\n**Environment:**\n- Platform: {{platform}}\n- Version: {{version}}\n\n**Error Messages/Logs:**\n```\n{{error_logs}}\n```\n\nPlease help me:\n1. Identify the likely root cause\n2. Suggest debugging steps\n3. Propose potential solutions",
+      "tags": "coding,debugging,troubleshooting",
+      "folder": "Development",
+      "createdAt": "2026-05-02T09:15:00.000Z",
+      "updatedAt": "2026-05-10T16:45:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "API Documentation Generator",
+      "content": "Generate comprehensive API documentation for the following endpoint:\n\n**Endpoint:** {{http_method}} {{endpoint_path}}\n\n**Description:** {{description}}\n\n**Parameters:**\n{{parameters}}\n\n**Response Format:**\n```json\n{{response_example}}\n```\n\nPlease create:\n1. Clear description of what the endpoint does\n2. Request/response examples\n3. Possible error codes and their meanings\n4. Usage examples in curl and JavaScript\n5. Authentication requirements",
+      "tags": "coding,documentation,api",
+      "folder": "Development",
+      "createdAt": "2026-05-03T11:20:00.000Z",
+      "updatedAt": "2026-05-12T13:10:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "SQL Query Optimizer",
+      "content": "Analyze and optimize this SQL query:\n\n```sql\n{{sql_query}}\n```\n\n**Table Schema:**\n{{table_schema}}\n\n**Current Issues:**\n- Query execution time: {{execution_time}}\n- Expected result size: {{result_size}}\n\nPlease provide:\n1. Analysis of current query performance\n2. Optimized version of the query\n3. Explanation of improvements\n4. Index recommendations\n5. Alternative approaches if applicable",
+      "tags": "coding,sql,optimization,database",
+      "folder": "Development",
+      "createdAt": "2026-05-04T15:30:00.000Z",
+      "updatedAt": "2026-05-20T10:25:00.000Z"
+    },
+    {
+      "id": 5,
+      "title": "Professional Email Writer",
+      "content": "Compose a professional email with the following details:\n\n**To:** {{recipient}}\n**Purpose:** {{purpose}}\n**Tone:** {{tone}} (e.g., formal, friendly, persuasive)\n**Key Points:**\n{{key_points}}\n\n**Context:**\n{{context}}\n\nPlease write:\n1. A clear subject line\n2. Professional greeting\n3. Well-structured body with key points\n4. Appropriate call-to-action\n5. Professional closing",
+      "tags": "writing,email,professional,communication",
+      "folder": "Writing",
+      "createdAt": "2026-05-05T08:45:00.000Z",
+      "updatedAt": "2026-05-18T12:30:00.000Z"
+    },
+    {
+      "id": 6,
+      "title": "Blog Post Outline Generator",
+      "content": "Create a comprehensive blog post outline for:\n\n**Topic:** {{topic}}\n**Target Audience:** {{audience}}\n**Goal:** {{goal}}\n**Tone:** {{tone}}\n**Word Count Target:** {{word_count}}\n\n**Key Points to Cover:**\n{{key_points}}\n\nPlease provide:\n1. Compelling title (3-5 options)\n2. Hook/introduction strategy\n3. Detailed section breakdown with subheadings\n4. Key takeaways for each section\n5. Call-to-action\n6. SEO keyword suggestions",
+      "tags": "writing,blogging,content,seo",
+      "folder": "Writing",
+      "createdAt": "2026-05-06T14:20:00.000Z",
+      "updatedAt": "2026-05-22T09:15:00.000Z"
+    },
+    {
+      "id": 7,
+      "title": "LinkedIn Post Creator",
+      "content": "Create an engaging LinkedIn post about:\n\n**Topic:** {{topic}}\n**Objective:** {{objective}} (e.g., thought leadership, engagement, promotion)\n**Target Audience:** {{audience}}\n\n**Key Message:**\n{{message}}\n\n**Tone:** Professional yet conversational\n\nPlease include:\n1. Attention-grabbing opening line\n2. Value-driven content (2-3 paragraphs)\n3. Personal insight or story if relevant\n4. Relevant hashtags (3-5)\n5. Engaging question or CTA to encourage comments",
+      "tags": "writing,linkedin,social-media,professional",
+      "folder": "Writing",
+      "createdAt": "2026-05-07T10:30:00.000Z",
+      "updatedAt": "2026-05-19T16:20:00.000Z"
+    },
+    {
+      "id": 8,
+      "title": "Executive Summary Writer",
+      "content": "Create an executive summary for:\n\n**Document Type:** {{document_type}}\n**Topic:** {{topic}}\n**Audience:** {{audience}} (e.g., C-level executives, board members)\n\n**Full Content/Key Points:**\n{{full_content}}\n\n**Required Length:** {{length}} (e.g., 1 page, 250 words)\n\nPlease provide:\n1. Concise overview of the main topic\n2. Key findings or recommendations\n3. Critical data points or metrics\n4. Strategic implications\n5. Next steps or action items\n\nMake it scannable with bullet points where appropriate.",
+      "tags": "writing,business,executive,summary",
+      "folder": "Writing",
+      "createdAt": "2026-05-08T13:15:00.000Z",
+      "updatedAt": "2026-05-25T11:40:00.000Z"
+    },
+    {
+      "id": 9,
+      "title": "Concept Explainer (ELI5)",
+      "content": "Explain the following concept in simple terms:\n\n**Concept:** {{concept}}\n**My Current Understanding:** {{current_understanding}}\n**What I'm Confused About:** {{confusion}}\n\nPlease explain:\n1. What it is in simple language (Explain Like I'm 5)\n2. Why it matters / real-world applications\n3. A relatable analogy or metaphor\n4. Common misconceptions\n5. Next steps to learn more\n\nUse clear examples and avoid jargon.",
+      "tags": "learning,education,explanation,eli5",
+      "folder": "Learning",
+      "createdAt": "2026-05-09T09:00:00.000Z",
+      "updatedAt": "2026-05-21T14:50:00.000Z"
+    },
+    {
+      "id": 10,
+      "title": "Study Guide Generator",
+      "content": "Create a comprehensive study guide for:\n\n**Subject:** {{subject}}\n**Topic:** {{topic}}\n**Exam/Test Date:** {{exam_date}}\n**Current Knowledge Level:** {{knowledge_level}}\n\n**Materials Covered:**\n{{materials}}\n\n**Areas of Difficulty:**\n{{difficult_areas}}\n\nPlease create:\n1. Key concepts summary with definitions\n2. Important formulas/frameworks to memorize\n3. Practice questions (with answers)\n4. Memory aids and mnemonics\n5. Study schedule recommendation\n6. Common mistakes to avoid",
+      "tags": "learning,studying,education,exam-prep",
+      "folder": "Learning",
+      "createdAt": "2026-05-10T11:45:00.000Z",
+      "updatedAt": "2026-05-23T10:15:00.000Z"
+    },
+    {
+      "id": 11,
+      "title": "Learning Path Designer",
+      "content": "Design a personalized learning path for:\n\n**Goal:** {{learning_goal}}\n**Current Level:** {{current_level}} (beginner/intermediate/advanced)\n**Available Time:** {{time_commitment}} per week\n**Learning Style:** {{learning_style}} (visual, hands-on, reading, etc.)\n**Timeline:** {{timeline}}\n\n**Background:**\n{{background}}\n\nPlease provide:\n1. Clear learning milestones\n2. Recommended resources (courses, books, projects)\n3. Week-by-week breakdown\n4. Practice projects or exercises\n5. How to measure progress\n6. Common pitfalls and how to avoid them",
+      "tags": "learning,education,roadmap,skills",
+      "folder": "Learning",
+      "createdAt": "2026-05-11T08:30:00.000Z",
+      "updatedAt": "2026-05-24T15:35:00.000Z"
+    },
+    {
+      "id": 12,
+      "title": "Feynman Technique Helper",
+      "content": "Help me learn using the Feynman Technique:\n\n**Topic I'm Learning:** {{topic}}\n\n**My Attempt to Explain It Simply:**\n{{my_explanation}}\n\n**Parts I'm Struggling to Simplify:**\n{{struggling_parts}}\n\nPlease:\n1. Identify gaps in my understanding\n2. Provide a simple explanation for the parts I'm struggling with\n3. Suggest analogies or examples I can use\n4. Point out areas where I'm overcomplicating\n5. Give me questions to test my understanding\n6. Recommend how I can practice explaining this to others",
+      "tags": "learning,education,feynman,understanding",
+      "folder": "Learning",
+      "createdAt": "2026-05-12T12:00:00.000Z",
+      "updatedAt": "2026-05-26T09:45:00.000Z"
+    }
+  ]
+}
