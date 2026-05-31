@@ -1,3 +1,7 @@
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![Tauri](https://img.shields.io/badge/Tauri-2.0-blue)
+
 # 📚 Promptuary
 
 A beautiful desktop application for managing and organizing your AI prompts.
