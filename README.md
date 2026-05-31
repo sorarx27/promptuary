@@ -21,6 +21,8 @@ A beautiful desktop application for managing and organizing your AI prompts.
 
 Download the latest release from the [Releases](https://github.com/sorarx27/promptuary/releases) page.
 
+If you want some starter data to get a feel of what the app can do, download the "promptuary-sample-data.json" file from the Releases page. Install the app and click the gear icon next to "Promptuary" -> click "Import" and select the JSON file.
+
 ## 🛠️ Development
 
 ```bash
