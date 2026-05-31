@@ -19,7 +19,7 @@ A beautiful desktop application for managing and organizing your AI prompts.
 
 ## 🚀 Download
 
-Download the latest release from the [Releases](https://github.com/YOUR_USERNAME/promptuary/releases) page.
+Download the latest release from the [Releases](https://github.com/sorarx27/promptuary/releases) page.
 
 ## 🛠️ Development
 
